@@ -33,7 +33,7 @@ $ keytool -genkey -v -keystore my-keystore.keystore -alias name_alias -keyalg RS
 ```
 2. To sign an apk
 ```sh
-$ jarsigner -verbose -keystore <path of my-keystore.keystore> <path of apk>  alias_name
+$ jarsigner -verbose -keystore <path of my-keystore.keystore> <path of apk>  name_alias
 ```
 3. To zip align an apk
 ```sh
